@@ -1,5 +1,5 @@
 const model = require('../Controllers/register.controller');
-    // app.get('/register/:id', notes.findOne);
+   // app.get('/register/:id', notes.findOne);
 
 var express = require('express')
 var app = express.Router();
@@ -13,7 +13,6 @@ app.post('/postComment',Controller.PosteComment)
 //mi-pa
 app.post('/message', Controllers.create);
     app.get('/message', Controllers.findAll);
-    app.get('/profil/:profilId', Controllers.findOne);
     
 //nante    
 app.post('/register', model.creerRegister);
